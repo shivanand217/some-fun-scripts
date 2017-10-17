@@ -3,7 +3,7 @@ import re
 
 #url = str(input('Enter a URL: '))
 
-url = 'https://workingatbooking.com/about-booking/'
+url = 'https://blog.anudeep2011.com/20-by-25/'
 
 website = requests.get(url)
 
