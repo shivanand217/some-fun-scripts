@@ -1,5 +1,14 @@
-class Tape(object):
-    
+'''
+Simple Turing machine, which complements a binary input on the tape, like an input "1100111" will be turned into "0011000". 
+Σ = {0, 1} 
+Q = {initial state, final state} 
+q0 = init 
+qf = final 
+
+'''
+
+
+class Tape(object):  
     blank_symbol = " "
     
     def __init__(self,
